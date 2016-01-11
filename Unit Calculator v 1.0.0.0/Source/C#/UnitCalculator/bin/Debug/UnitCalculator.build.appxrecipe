@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ELIJAH-LAPTOP</Machine>
+    <WindowsUser>Elijah</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>8971854f-432f-4790-9a80-ff1242d5a9f4</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\bin\Debug\UnitCalculator.exe">
+      <PackagePath>UnitCalculator.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\AppLogo.png">
+      <PackagePath>Assets\AppLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\Area.png">
+      <PackagePath>Assets\Images\Area.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\Background.png">
+      <PackagePath>Assets\Images\Background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\CalcImg1.png">
+      <PackagePath>Assets\Images\CalcImg1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\CalcImg2.png">
+      <PackagePath>Assets\Images\CalcImg2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\CalcImg3.png">
+      <PackagePath>Assets\Images\CalcImg3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\CalcImg4.png">
+      <PackagePath>Assets\Images\CalcImg4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\CalcImg5.png">
+      <PackagePath>Assets\Images\CalcImg5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\CalcImg6.png">
+      <PackagePath>Assets\Images\CalcImg6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\CalcImg7.png">
+      <PackagePath>Assets\Images\CalcImg7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\Data.png">
+      <PackagePath>Assets\Images\Data.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\Energy.png">
+      <PackagePath>Assets\Images\Energy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\Force.png">
+      <PackagePath>Assets\Images\Force.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\Length.png">
+      <PackagePath>Assets\Images\Length.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\Mass.png">
+      <PackagePath>Assets\Images\Mass.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\Power.png">
+      <PackagePath>Assets\Images\Power.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\Pressure.png">
+      <PackagePath>Assets\Images\Pressure.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\Speed.png">
+      <PackagePath>Assets\Images\Speed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\Temperature.png">
+      <PackagePath>Assets\Images\Temperature.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Images\Volume.png">
+      <PackagePath>Assets\Images\Volume.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\MainLogo.png">
+      <PackagePath>Assets\MainLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\widelogo.png">
+      <PackagePath>Assets\widelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\BigLiveTile1.jpg">
+      <PackagePath>Assets\BigLiveTile1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\BigLiveTile2.jpg">
+      <PackagePath>Assets\BigLiveTile2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\SmallLiveTile1.jpg">
+      <PackagePath>Assets\SmallLiveTile1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\Assets\SmallLiveTile2.jpg">
+      <PackagePath>Assets\SmallLiveTile2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\bin\Debug\UnitCalculator.xr.xml">
+      <PackagePath>UnitCalculator.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\bin\Debug\Calculator.xbf">
+      <PackagePath>Calculator.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\bin\Debug\SettingsFlyouts\AboutUs.xbf">
+      <PackagePath>SettingsFlyouts\AboutUs.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\bin\Debug\SettingsFlyouts\ContactUs.xbf">
+      <PackagePath>SettingsFlyouts\ContactUs.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\bin\Debug\SettingsFlyouts\PrivacyPolicy.xbf">
+      <PackagePath>SettingsFlyouts\PrivacyPolicy.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\bin\Debug\SettingsFlyouts\TermsAndConditions.xbf">
+      <PackagePath>SettingsFlyouts\TermsAndConditions.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Unit Calculator v 1.0.0.0\Source\C#\UnitCalculator\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

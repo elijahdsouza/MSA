@@ -1,0 +1,90 @@
+﻿.OverDue p {
+    margin-left: 120px;
+}
+
+.OverDue .OverDueMainDiv {
+    margin-left: 125px;
+    width: 950px;
+    height: 489px;
+    background: #fcbd01;
+}
+
+.OverDue .Toptext {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #fff;
+    margin: 10px 0px 20px 125px;
+}
+
+.OverDue .OverDueBannerDiv {
+    width: 731px;
+    height: 220px;
+    padding: 30px 0px 0px 0px;
+    margin: 0px 0px 0px 28px;
+    float: left;
+}
+
+.OverDue .wightOverDueInnerDiv {
+    width: 716px;
+    height: 48px;
+    background: #fff;
+    font-size: 26px;
+    color: #000;
+    font-weight: lighter;
+    padding: 4px 0px 0px 15px;
+    margin: 0px 0px 5px 0px;
+}
+
+.OverDue .OverDueBlackBannerDiv {
+    width: 139px;
+    height: 100%;
+    background: #000;
+    float: right;
+}
+
+.OverDue .OverDueBannerInnerDiv {
+    width: 60px;
+    height: auto;
+    margin: auto;
+    padding: 180px 0px 0px 0px;
+}
+
+
+
+@media screen and (-ms-view-state: snapped) {
+    .OverDue .SnapDiv {
+        font-size: 18px;
+        color: #fff;
+        width: auto;
+        height: auto;
+        margin: 300px 0px 0px 20px;
+    }
+
+    .OverDue .OverDueMainDiv {
+        margin-left: 120px;
+        width: 950px;
+        height: 489px;
+        background: #fcbd01;
+        display: none;
+    }
+
+    .OverDue .Toptext {
+        font-size: 24px;
+        font-weight: lighter;
+        color: #fff;
+        margin: 10px 0px 20px 125px;
+        display: none;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape), screen and (-ms-view-state: fullscreen-portrait), screen and (-ms-view-state: filled) {
+
+    .OverDue .SnapDiv {
+        font-size: 18px;
+        color: #fff;
+        width: auto;
+        height: auto;
+        margin: 300px 0px 0px 20px;
+        display: none;
+    }
+}

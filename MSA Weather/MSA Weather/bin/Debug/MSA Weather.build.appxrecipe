@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ELIJAH-LAPTOP</Machine>
+    <WindowsUser>Elijah</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>fb232610-28ff-4f73-93bf-364a2274b034</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\MSA Weather\MSA Weather\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\MSA Weather\MSA Weather\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\MSA Weather\MSA Weather\bin\Debug\MSA Weather.exe">
+      <PackagePath>MSA Weather.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\MSA Weather\packages\Newtonsoft.Json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\MSA Weather\MSA Weather\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\MSA Weather\MSA Weather\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\MSA Weather\MSA Weather\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\MSA Weather\MSA Weather\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\MSA Weather\MSA Weather\bin\Debug\MSA Weather.xr.xml">
+      <PackagePath>MSA Weather.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\MSA Weather\MSA Weather\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\MSA Weather\MSA Weather\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\MSA Weather\MSA Weather\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

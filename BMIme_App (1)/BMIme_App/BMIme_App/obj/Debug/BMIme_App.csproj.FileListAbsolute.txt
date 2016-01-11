@@ -1,0 +1,66 @@
+E:\MSA App\BMIme_App\BMIme_App\bin\Debug\App.xbf
+E:\MSA App\BMIme_App\BMIme_App\bin\Debug\MainPage.xbf
+E:\MSA App\BMIme_App\BMIme_App\bin\Debug\BMIme_App.xr.xml
+E:\MSA App\BMIme_App\BMIme_App\bin\Debug\BMIme_App.exe
+E:\MSA App\BMIme_App\BMIme_App\bin\Debug\BMIme_App.pdb
+E:\MSA App\BMIme_App\BMIme_App\bin\Debug\resources.pri
+E:\MSA App\BMIme_App\BMIme_App\bin\Debug\AppxManifest.xml
+E:\MSA App\BMIme_App\BMIme_App\bin\Debug\BMIme_App.build.appxrecipe
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\App.g.i.cs
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\App.g.cs
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\MainPage.g.i.cs
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\MainPage.g.cs
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\XamlTypeInfo.g.cs
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\App.xaml
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\App.xbf
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\XamlSaveStateFile.xml
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\MainPage.xaml
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\MainPage.xbf
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\BMIme_App.exe
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\BMIme_App.pdb
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\priconfig.xml
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\priconfig.xml.intermediate
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\layout.resfiles
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\layout.resfiles.intermediate
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\resources.resfiles
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\resources.resfiles.intermediate
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\pri.resfiles
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\pri.resfiles.intermediate
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\qualifiers.txt
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\qualifiers.txt.intermediate
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\MSA App\BMIme_App\BMIme_App\obj\Debug\ProjectArchitectures.txt
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\bin\Debug\App.xbf
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\bin\Debug\MainPage.xbf
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\bin\Debug\BMIme_App.xr.xml
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\bin\Debug\BMIme_App.exe
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\bin\Debug\BMIme_App.pdb
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\bin\Debug\resources.pri
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\bin\Debug\AppxManifest.xml
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\bin\Debug\BMIme_App.build.appxrecipe
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\App.g.i.cs
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\App.g.cs
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\MainPage.g.i.cs
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\MainPage.g.cs
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\App.xaml
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\MainPage.xaml
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\App.xbf
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\MainPage.xbf
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\BMIme_App.exe
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\BMIme_App.pdb
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\priconfig.xml
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\priconfig.xml.intermediate
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\layout.resfiles
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\layout.resfiles.intermediate
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\resources.resfiles
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\resources.resfiles.intermediate
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\pri.resfiles
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\pri.resfiles.intermediate
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\qualifiers.txt
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\obj\Debug\ProjectArchitectures.txt
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\bin\Debug\BMIme_App.exe.CodeAnalysisLog.xml
+C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\BMIme_App (1)\BMIme_App\BMIme_App\bin\Debug\BMIme_App.exe.lastcodeanalysissucceeded

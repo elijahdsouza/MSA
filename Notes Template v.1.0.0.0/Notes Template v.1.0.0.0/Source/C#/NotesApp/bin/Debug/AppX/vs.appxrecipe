@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ELIJAH-LAPTOP</Machine>
+    <WindowsUser>Elijah</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>61997f1a-85b9-453e-ae01-ea22096fe1e8</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>D9BF65790C1D06B132223DC09784AA1B63C83BDF286582C2FA822BA72DACE442</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>61997f1a-85b9-453e-ae01-ea22096fe1e8_1.1.0.0_neutral__yps17xarsp2at</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>61997f1a-85b9-453e-ae01-ea22096fe1e8_yps17xarsp2at!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>61997f1a-85b9-453e-ae01-ea22096fe1e8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=test</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-01T12:06:31.055</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\NotesApp.exe">
+      <PackagePath>NotesApp.exe</PackagePath>
+      <Modified>2015-10-01T12:06:30.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\Bell.png">
+      <PackagePath>Assets\HubPage\Bell.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\CallRight.png">
+      <PackagePath>Assets\HubPage\CallRight.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\CalterPic1.png">
+      <PackagePath>Assets\HubPage\CalterPic1.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\HupPic1.png">
+      <PackagePath>Assets\HubPage\HupPic1.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\HupPic2.png">
+      <PackagePath>Assets\HubPage\HupPic2.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\HupPic3.png">
+      <PackagePath>Assets\HubPage\HupPic3.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\HupPic4.png">
+      <PackagePath>Assets\HubPage\HupPic4.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\HupPic5.png">
+      <PackagePath>Assets\HubPage\HupPic5.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\HupPic6.png">
+      <PackagePath>Assets\HubPage\HupPic6.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\HupPic7.png">
+      <PackagePath>Assets\HubPage\HupPic7.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\HupPic8.png">
+      <PackagePath>Assets\HubPage\HupPic8.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\late.png">
+      <PackagePath>Assets\HubPage\late.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\Noticon1.png">
+      <PackagePath>Assets\HubPage\Noticon1.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\Noticon2.png">
+      <PackagePath>Assets\HubPage\Noticon2.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\Noticon3.png">
+      <PackagePath>Assets\HubPage\Noticon3.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\Noticon4.png">
+      <PackagePath>Assets\HubPage\Noticon4.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\NotPic.png">
+      <PackagePath>Assets\HubPage\NotPic.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\Pic12.png">
+      <PackagePath>Assets\HubPage\Pic12.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\Right.png">
+      <PackagePath>Assets\HubPage\Right.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\Star.png">
+      <PackagePath>Assets\HubPage\Star.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\Star2.png">
+      <PackagePath>Assets\HubPage\Star2.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\HubPage\Star3.png">
+      <PackagePath>Assets\HubPage\Star3.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\MainLogo.png">
+      <PackagePath>Assets\MainLogo.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\widelogo.png">
+      <PackagePath>Assets\widelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\BigLiveTile1.jpg">
+      <PackagePath>Assets\BigLiveTile1.jpg</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\BigLiveTile2.jpg">
+      <PackagePath>Assets\BigLiveTile2.jpg</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\SmallLiveTile1.jpg">
+      <PackagePath>Assets\SmallLiveTile1.jpg</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\Assets\SmallLiveTile2.jpg">
+      <PackagePath>Assets\SmallLiveTile2.jpg</PackagePath>
+      <Modified>2013-01-16T22:49:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\NotesApp.xr.xml">
+      <PackagePath>NotesApp.xr.xml</PackagePath>
+      <Modified>2015-10-01T12:06:30.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-10-01T12:06:30.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\CalenderPage.xbf">
+      <PackagePath>CalenderPage.xbf</PackagePath>
+      <Modified>2015-10-01T12:06:30.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+      <Modified>2015-10-01T12:06:30.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+      <Modified>2015-10-01T12:06:30.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\OverduePage.xbf">
+      <PackagePath>OverduePage.xbf</PackagePath>
+      <Modified>2015-10-01T12:06:30.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\SettingsFlyouts\AboutUs.xbf">
+      <PackagePath>SettingsFlyouts\AboutUs.xbf</PackagePath>
+      <Modified>2015-10-01T12:06:30.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\SettingsFlyouts\ContactUs.xbf">
+      <PackagePath>SettingsFlyouts\ContactUs.xbf</PackagePath>
+      <Modified>2015-10-01T12:06:30.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\SettingsFlyouts\PrivacyPolicy.xbf">
+      <PackagePath>SettingsFlyouts\PrivacyPolicy.xbf</PackagePath>
+      <Modified>2015-10-01T12:06:30.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\SettingsFlyouts\TermsAndConditions.xbf">
+      <PackagePath>SettingsFlyouts\TermsAndConditions.xbf</PackagePath>
+      <Modified>2015-10-01T12:06:30.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\TaskPage.xbf">
+      <PackagePath>TaskPage.xbf</PackagePath>
+      <Modified>2015-10-01T12:06:30.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Elijah\OneDrive\Documents\Uni Workspace\2015\Sem 2\MSA\Notes Template v.1.0.0.0\Notes Template v.1.0.0.0\Source\C#\NotesApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-10-01T12:06:30.940</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

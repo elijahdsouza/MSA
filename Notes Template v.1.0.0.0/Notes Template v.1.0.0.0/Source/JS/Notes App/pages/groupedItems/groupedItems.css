@@ -1,0 +1,342 @@
+﻿.groupeditemspageMainDiv {
+    width: 100%;
+    height: 100%;
+    -ms-grid-columns: auto 1000px 1fr;
+    display: -ms-grid;
+    margin: 0px 0px 0px 61px;
+}
+
+    .groupeditemspageMainDiv .DeTaliDiv {
+        height: auto;
+        -ms-grid-column: 2;
+        -ms-grid-columns: 480px 40px 404px 1fr;
+        display: -ms-grid;
+    }
+
+        .groupeditemspageMainDiv .DeTaliDiv .TodaysBanner {
+            height: auto;
+            -ms-grid-column: 1;
+            -ms-grid-rows: 50px 500px 1fr;
+            display: -ms-grid;
+        }
+
+            .groupeditemspageMainDiv .DeTaliDiv .TodaysBanner .TopText {
+                width: 480px;
+                -ms-grid-row: 1;
+                font-size: 24px;
+                font-weight: lighter;
+                color: #fff;
+                padding: 8px 0px 0px 0px;
+            }
+
+            .groupeditemspageMainDiv .DeTaliDiv .TodaysBanner .TodaysMainDiv {
+                width: 480px;
+                -ms-grid-row: 2;
+                padding: 0px 0px 0px 0px;
+                background: rgba(255,255,255,0.15);
+            }
+
+    .groupeditemspageMainDiv .TodayInnerDiv {
+        width: 432px;
+        height: auto;
+        margin: 25px 0px 0px 25px;
+    }
+
+    .groupeditemspageMainDiv .wightInnerDiv {
+        width: 417px;
+        height: 44px;
+        background: #fff;
+        font-size: 26px;
+        color: #000;
+        font-weight: lighter;
+        padding: 4px 0px 0px 15px;
+        margin: 0px 0px 35px 0px;
+    }
+
+    .groupeditemspageMainDiv .YellowInnerDiv {
+        width: 432px;
+        height: 44px;
+        background: #fcbd01;
+        font-size: 26px;
+        color: #000;
+        font-weight: lighter;
+        padding: 4px 0px 0px 0px;
+        margin: 0px 0px 4px 0px;
+    }
+
+    .groupeditemspageMainDiv .BlackInnerDiv {
+        width: 432px;
+        height: 44px;
+        background: #000;
+        font-size: 26px;
+        color: #000;
+        font-weight: lighter;
+        padding: 4px 0px 0px 0px;
+        margin: 0px 0px 4px 0px;
+    }
+
+    .groupeditemspageMainDiv .DeTaliDiv .ListBanner {
+        height: auto;
+        -ms-grid-column: 3;
+        -ms-grid-rows: 50px 500px 1fr;
+        display: -ms-grid;
+    }
+
+        .groupeditemspageMainDiv .DeTaliDiv .ListBanner .TopText {
+            width: 404px;
+            -ms-grid-row: 1;
+            font-size: 24px;
+            font-weight: lighter;
+            color: #fff;
+            padding: 8px 0px 0px 0px;
+        }
+
+        .groupeditemspageMainDiv .DeTaliDiv .ListBanner .ListMainDiv {
+            width: 404px;
+            -ms-grid-row: 2;
+            padding: 0px 0px 0px 0px;
+            background: rgba(255,255,255,0.15);
+        }
+
+    .groupeditemspageMainDiv .ListInnerDiv {
+        width: 361px;
+        height: auto;
+        margin: 25px 0px 0px 25px;
+    }
+
+    .groupeditemspageMainDiv .wightListInnerDiv {
+        width: 346px;
+        height: 44px;
+        background: #fff;
+        font-size: 26px;
+        color: #000;
+        font-weight: lighter;
+        padding: 4px 0px 0px 15px;
+        margin: 0px 0px 35px 0px;
+    }
+
+    .groupeditemspageMainDiv .YellowListInnerDiv {
+        width: 361px;
+        height: 44px;
+        background: #fcbd01;
+        font-size: 26px;
+        color: #000;
+        font-weight: lighter;
+        padding: 4px 0px 0px 0px;
+        margin: 0px 0px 4px 0px;
+    }
+
+    .groupeditemspageMainDiv .BlackListInnerDiv {
+        width: 361px;
+        height: 44px;
+        background: #000;
+        font-size: 26px;
+        color: #000;
+        font-weight: lighter;
+        padding: 4px 0px 0px 0px;
+        margin: 0px 0px 4px 0px;
+    }
+
+.groupeditemspage .groupeditemslist {
+    height: 630px;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    -ms-grid-column: 1;
+}
+
+    /* This selector is used to prevent ui-dark/light.css from overwriting changes
+       to .win-surface. */
+    .groupeditemspage .groupeditemslist .win-horizontal.win-viewport .win-surface {
+        margin-bottom: 60px;
+        margin-left: 0px;
+        margin-right: 40px;
+        margin-top: 0px;
+    }
+
+    .groupeditemspage .groupeditemslist .win-groupheader {
+        padding: 0;
+    }
+
+    /* Use grid and top level layout for truncation */
+    .groupeditemspage .groupeditemslist .group-header {
+        -ms-grid-columns: minmax(0, max-content) 7px max-content;
+        -ms-grid-rows: max-content;
+        display: -ms-inline-grid;
+        line-height: 1.5;
+    }
+
+    /* Override default button styles */
+    .groupeditemspage .groupeditemslist .group-header, .group-header:hover, .group-header:hover:active {
+        background: transparent;
+        border: 0;
+        margin-bottom: 1px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 1px;
+        min-height: 0;
+        padding: 0;
+    }
+
+        .groupeditemspage .groupeditemslist .group-header .group-title {
+            display: inline-block;
+        }
+
+        .groupeditemspage .groupeditemslist .group-header .group-chevron {
+            -ms-grid-column: 3;
+            display: inline-block;
+        }
+
+            .groupeditemspage .groupeditemslist .group-header .group-chevron::before {
+                content: "\E26B";
+                font-family: 'Segoe UI Symbol';
+            }
+
+    .groupeditemspage .groupeditemslist .item {
+        -ms-grid-columns: 1fr;
+        -ms-grid-rows: 1fr 40px;
+        display: -ms-grid;
+        width: 119px;
+        height: 119px;
+    }
+
+        .groupeditemspage .groupeditemslist .item .item-image {
+            -ms-grid-row-span: 2;
+        }
+
+        .groupeditemspage .groupeditemslist .item .item-overlay {
+            -ms-grid-row: 2;
+        }
+
+            .groupeditemspage .groupeditemslist .item .item-overlay .item-title {
+                -ms-grid-row: 1;
+                overflow: hidden;
+                width: 119px;
+                font-size: 21px;
+                font-weight: lighter;
+                text-align: center;
+                color: #000;
+            }
+
+/*.groupeditemspage .groupeditemslist .item .item-overlay .item-subtitle {
+                -ms-grid-row: 2;
+                width: 220px;
+            }*/
+
+@media screen and (-ms-view-state: fullscreen-landscape), screen and (-ms-view-state: fullscreen-portrait), screen and (-ms-view-state: filled) {
+    .groupeditemspage .groupeditemslist .item .item-overlay {
+        /*background: rgba(0,0,0,0.65);*/
+    }
+
+        .groupeditemspage .groupeditemslist .item .item-overlay .item-title {
+            /*color: rgba(255,255,255,0.87);*/
+        }
+
+        .groupeditemspage .groupeditemslist .item .item-overlay .item-subtitle {
+            /*color: rgba(255,255,255,0.6);*/
+        }
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) and (-ms-high-contrast), screen and (-ms-view-state: fullscreen-portrait) and (-ms-high-contrast), screen and (-ms-view-state: filled) and (-ms-high-contrast) {
+    .groupeditemspage .groupeditemslist .item .item-overlay {
+        color: WindowText;
+    }
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .groupeditemspage section[role=main] {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
+                overflow-x:hidden !important;
+    }
+
+    .groupeditemspageMainDiv {
+        width: 100%;
+        height: 100%;
+        -ms-grid-columns: auto 0px 1fr;
+        display: -ms-grid;
+        margin: 0px 0px 0px 10px;
+        overflow-x:hidden !important;
+    }
+
+        .groupeditemspageMainDiv .DeTaliDiv {
+            display: none;
+        }
+
+    .groupeditemspage .groupeditemslist {
+        height: 630px;
+        position: relative;
+        width: 325px;
+        z-index: 0;
+        -ms-grid-column: 1;
+                overflow-x:hidden !important;
+
+    }
+
+        .groupeditemspage .groupeditemslist .win-vertical.win-viewport .win-surface {
+            margin-bottom: 30px;
+            margin-top: 0;
+                    overflow-x:hidden !important;
+        }
+
+        .groupeditemspage .groupeditemslist .win-container {
+            margin-bottom: 15px;
+            margin-left: 13px;
+            margin-right: 35px;
+            padding: 7px;
+                    overflow-x:hidden !important;
+                    background:#e4ac05;
+        }
+
+        .groupeditemspage .groupeditemslist .item {
+            -ms-grid-columns: 20px 1fr;
+            -ms-grid-rows: 1fr;
+            display: -ms-grid;
+            height: 60px;
+            width: 272px;
+                    overflow-x:hidden !important;
+        }
+
+            .groupeditemspage .groupeditemslist .item .item-image {
+                -ms-grid-column: 1;
+                -ms-grid-row-span: 1;
+                height: 60px;
+                width: 60px;
+                        overflow-x:hidden !important;
+            }
+
+            .groupeditemspage .groupeditemslist .item .item-overlay {
+                -ms-grid-column: 2;
+                -ms-grid-row: 1;
+                -ms-grid-row-align: stretch;
+                background: transparent;
+                display: inline-block;
+                margin-left: 10px;
+                padding: 0;
+                        overflow-x:hidden !important;
+            }
+
+                .groupeditemspage .groupeditemslist .item .item-overlay .item-title {
+                    margin-top: 4px;
+                    max-height: 40px;
+                    width: 202px;
+                            overflow-x:hidden !important;
+                }
+
+                .groupeditemspage .groupeditemslist .item .item-overlay .item-subtitle {
+                    opacity: 0.6;
+                    width: 202px;
+                            overflow-x:hidden !important;
+                }
+
+    .fragment header[role=banner] .titlearea {
+        -ms-grid-column: 2;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .groupeditemspage .groupeditemslist .win-horizontal.win-viewport .win-surface {
+        margin-left: 25px;
+    }
+}

@@ -1,0 +1,118 @@
+﻿.CalenderPage p {
+    margin-left: 120px;
+}
+
+.CalenderPage .CalenderMainDiv {
+    margin-left: 120px;
+    width: 950px;
+    height: 500px;
+}
+
+.CalenderPage .Toptext {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #fff;
+    margin: 10px 0px 20px 125px;
+}
+
+.CalenderPage .CalenderInner {
+    width: 128px;
+    height: auto;
+    float: left;
+    margin: 0px 5px 0px 0px;
+}
+
+.CalenderPage .DayDiv {
+    width: 118px;
+    height: 27px;
+    background: #000;
+    font-size: 16px;
+    color: #fcbd01;
+    font-weight: lighter;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 5px 0px;
+}
+
+.CalenderPage .YellowDateDiv {
+    width: 118px;
+    height: 88px;
+    background: #fcbd01;
+    font-size: 16px;
+    color: #000;
+    font-weight: lighter;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 5px 0px;
+}
+
+.CalenderPage .IconDateDiv {
+    width: 118px;
+    height: 88px;
+    font-size: 16px;
+    color: #000;
+    font-weight: lighter;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 5px 0px;
+    background: url(../../images/Hubpage/CalIcon.png) no-repeat top right #fc3c01;
+}
+
+.CalenderPage .IconwightDateDiv {
+    width: 118px;
+    height: 88px;
+    font-size: 16px;
+    color: #000;
+    font-weight: lighter;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 5px 0px;
+    background: url(../../images/Hubpage/CalIcon.png) no-repeat top right #fff;
+}
+
+.CalenderPage .IcongreenDateDiv {
+    width: 118px;
+    height: 88px;
+    font-size: 16px;
+    color: #000;
+    font-weight: lighter;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 5px 0px;
+    background: url(../../images/Hubpage/CalIcon2.png) no-repeat;
+}
+
+
+@media screen and (-ms-view-state: snapped) {
+
+    .CalenderPage .SnapDiv {
+        font-size: 18px;
+        color: #fff;
+        width: auto;
+        height: auto;
+        margin: 300px 0px 0px 20px;
+    }
+
+    .CalenderPage .Toptext {
+        font-size: 24px;
+        font-weight: lighter;
+        color: #fff;
+        margin: 10px 0px 20px 125px;
+        display: none;
+    }
+
+    .CalenderPage .CalenderMainDiv {
+        margin-left: 120px;
+        width: 950px;
+        height: 500px;
+        display: none;
+    }
+}
+
+
+@media screen and (-ms-view-state: fullscreen-landscape), screen and (-ms-view-state: fullscreen-portrait), screen and (-ms-view-state: filled) {
+
+    .CalenderPage .SnapDiv {
+        font-size: 18px;
+        color: #fff;
+        width: auto;
+        height: auto;
+        margin: 300px 0px 0px 20px;
+        display: none;
+    }
+}

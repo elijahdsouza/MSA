@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>f4ab54fb-7aab-4a44-bd1a-9d013edd3df2</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>Notes App_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="css\default.css" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\BigLiveTile1.jpg" />
+    <Content Include="images\BigLiveTile2.jpg" />
+    <Content Include="images\Hubpage\AddTaskBg.png" />
+    <Content Include="images\Hubpage\AddTaskInputBg.png" />
+    <Content Include="images\Hubpage\CalIcon.png" />
+    <Content Include="images\Hubpage\CalIcon2.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\Hubpage\Bell.png" />
+    <Content Include="images\Hubpage\CallRight.png" />
+    <Content Include="images\Hubpage\CalterPic1.png" />
+    <Content Include="images\Hubpage\HupPic1.png" />
+    <Content Include="images\Hubpage\HupPic2.png" />
+    <Content Include="images\Hubpage\HupPic3.png" />
+    <Content Include="images\Hubpage\HupPic4.png" />
+    <Content Include="images\Hubpage\HupPic5.png" />
+    <Content Include="images\Hubpage\HupPic6.png" />
+    <Content Include="images\Hubpage\HupPic7.png" />
+    <Content Include="images\Hubpage\HupPic8.png" />
+    <Content Include="images\Hubpage\late.png" />
+    <Content Include="images\Hubpage\Noticon1.png" />
+    <Content Include="images\Hubpage\Noticon2.png" />
+    <Content Include="images\Hubpage\Noticon3.png" />
+    <Content Include="images\Hubpage\Noticon4.png" />
+    <Content Include="images\Hubpage\NotPic.png" />
+    <Content Include="images\Hubpage\Pic12.png" />
+    <Content Include="images\Hubpage\Right.png" />
+    <Content Include="images\Hubpage\Star.png" />
+    <Content Include="images\Hubpage\Star2.png" />
+    <Content Include="images\Hubpage\Star3.png" />
+    <Content Include="images\MainLogo.png" />
+    <Content Include="images\SmallLiveTile1.jpg" />
+    <Content Include="images\SmallLiveTile2.jpg" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="images\widelogo.png" />
+    <Content Include="js\data.js" />
+    <Content Include="js\default.js" />
+    <Content Include="js\navigator.js" />
+    <Content Include="pages\AddTask\AddTask.css" />
+    <Content Include="pages\AddTask\AddTask.html" />
+    <Content Include="pages\AddTask\AddTask.js" />
+    <Content Include="pages\CalenderPage\CalenderPage.css" />
+    <Content Include="pages\CalenderPage\CalenderPage.html" />
+    <Content Include="pages\CalenderPage\CalenderPage.js" />
+    <Content Include="pages\itemDetail\itemDetail.css" />
+    <Content Include="pages\itemDetail\itemDetail.html" />
+    <Content Include="pages\itemDetail\itemDetail.js" />
+    <Content Include="pages\groupDetail\groupDetail.css" />
+    <Content Include="pages\groupDetail\groupDetail.html" />
+    <Content Include="pages\groupDetail\groupDetail.js" />
+    <Content Include="pages\groupedItems\groupedItems.css" />
+    <Content Include="pages\groupedItems\groupedItems.html" />
+    <Content Include="pages\groupedItems\groupedItems.js" />
+    <Content Include="default.html" />
+    <Content Include="pages\OverDue\OverDue.css" />
+    <Content Include="pages\OverDue\OverDue.html" />
+    <Content Include="pages\OverDue\OverDue.js" />
+    <None Include="Notes App_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>

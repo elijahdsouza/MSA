@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="BMIme_App.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BMIme_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:ConnectionId='1' HorizontalAlignment="Center" Height="69" Margin="72,34,49,0" TextWrapping="Wrap" Text="BMI ME" VerticalAlignment="Top" Width="279"                                               FontFamily="Arial Black" Foreground="#FF61FF07" FontWeight="Bold" FontSize="72"/>
+        <TextBox x:ConnectionId='2' x:Name="input_height" HorizontalAlignment="Center" Height="38" Margin="189,174,49,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"                                     PlaceholderText="cm" FontSize="18"/>
+        <TextBox x:ConnectionId='3' x:Name="input_weight" HorizontalAlignment="Left" Height="38" Margin="189,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"                                   PlaceholderText="kg" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Height="38" Margin="44,174,0,0" TextWrapping="Wrap" Text="Height" VerticalAlignment="Top" Width="83" FontFamily="Euphemia" FontSize="24" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Height="38" Margin="44,260,0,0" TextWrapping="Wrap" Text="Weight" VerticalAlignment="Top" Width="83" FontFamily="Euphemia" FontSize="24" FontWeight="Bold"/>
+        <Button x:ConnectionId='4' Content="Calculate BMI" HorizontalAlignment="Left" Height="65" Margin="189,347,0,0" VerticalAlignment="Top" Width="162" FontSize="20" FontFamily="Segoe WP Black"                     />
+        <TextBlock x:ConnectionId='5' x:Name="outputBMI" Height="77" Margin="72,481,104,0" TextWrapping="Wrap" VerticalAlignment="Top"                                                 FontFamily="Segoe UI Black" FontSize="72" FontWeight="Bold"/>
+        <TextBlock x:ConnectionId='6' x:Name="result" HorizontalAlignment="Left" Height="41" Margin="72,563,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="318" FontSize="24" FontFamily="Arial" FontStyle="Italic"                                           />
+        <TextBlock x:Name="errorMess" HorizontalAlignment="Left" Height="33" Margin="10,459,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" TextAlignment="Center" Foreground="Red" FontStyle="Italic" FontFamily="Arial" FontSize="22"/>
+
+    </Grid>
+</Page>
+

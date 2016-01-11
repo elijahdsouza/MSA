@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>groupedItemsPage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/groupedItems/groupedItems.css" rel="stylesheet" />
+    <script src="/js/data.js"></script>
+    <script src="/pages/groupedItems/groupedItems.js"></script>
+</head>
+<body>
+    <!-- These templates are used to display each item in the ListView declared below. -->
+    <div class="headertemplate" data-win-control="WinJS.Binding.Template">
+        <button class="group-header win-type-x-large win-type-interactive" data-win-bind="groupKey: key"
+            onclick="Application.navigator.pageControl.navigateToGroup(event.srcElement.groupKey)" role="link" tabindex="-1" type="button">
+            <span class="group-title win-type-ellipsis" data-win-bind="textContent: title"></span>
+            <span class="group-chevron"></span>
+        </button>
+    </div>
+    <div class="itemtemplate" data-win-control="WinJS.Binding.Template">
+        <div class="item">
+            <img class="item-image" src="#" data-win-bind="src: backgroundImage; alt: title" />
+            <div class="item-overlay">
+                <h4 class="item-title" data-win-bind="textContent: title"></h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- The content that will be loaded and displayed. -->
+    <div class="fragment groupeditemspage">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <!--<h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Notes App</span>
+            </h1>-->
+            <div class="titlearea">
+                <img src="../../images/MainLogo.png" />
+            </div>
+        </header>
+        <section aria-label="Main content" role="main" style="overflow: auto;">
+            <div class="groupeditemspageMainDiv">
+                <div class="groupeditemslist win-selectionstylefilled" aria-label="List of groups" data-win-control="WinJS.UI.ListView" data-win-options="{ selectionMode: 'none' }"></div>
+                <div class="DeTaliDiv">
+                    <div class="TodaysBanner">
+                        <div class="TopText">Todays Task</div>
+                        <div class="TodaysMainDiv">
+                            <div class="TodayInnerDiv">
+                                <div class="wightInnerDiv">Add new task</div>
+                                <div class="YellowInnerDiv">
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 13px 0px 10px;">
+                                        <img src="../../images/Hubpage/Star.png" /></div>
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 0px 0px 0px; font-size: 26px; color: #000; font-weight: lighter;">Looper > Logo</div>
+                                    <div style="width: auto; height: auto; float: right; margin: 0px 13px 0px 0px;">
+                                        <img src="../../images/Hubpage/Bell.png" /></div>
+                                </div>
+                                <div class="YellowInnerDiv">
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 13px 0px 10px;">
+                                        <img src="../../images/Hubpage/Star.png" /></div>
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 0px 0px 0px; font-size: 26px; color: #000; font-weight: lighter;">Nashad > Photography</div>
+                                    <div style="width: auto; height: auto; float: right; margin: 0px 13px 0px 0px;"></div>
+                                </div>
+                                <div class="YellowInnerDiv">
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 13px 0px 10px;">
+                                        <img src="../../images/Hubpage/Star2.png" /></div>
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 0px 0px 0px; font-size: 26px; color: #000; font-weight: lighter;">Potrait > Digital Art</div>
+                                    <div style="width: auto; height: auto; float: right; margin: 0px 13px 0px 0px;">
+                                        <img src="../../images/Hubpage/Bell.png" /></div>
+                                </div>
+                                <div class="YellowInnerDiv">
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 13px 0px 10px;">
+                                        <img src="../../images/Hubpage/Star2.png" /></div>
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 0px 0px 0px; font-size: 26px; color: #000; font-weight: lighter;">Landscape > Painting</div>
+                                    <div style="width: auto; height: auto; float: right; margin: 0px 13px 0px 0px;">
+                                        <img src="../../images/Hubpage/Bell.png" /></div>
+                                </div>
+                                <div class="BlackInnerDiv">
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 13px 0px 10px;">
+                                        <img src="../../images/Hubpage/Star.png" /></div>
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 0px 0px 0px; font-size: 26px; color: #fcbd01; font-weight: lighter;">Concept Art</div>
+                                    <div style="width: auto; height: auto; float: right; margin: 0px 13px 0px 0px;">
+                                        <img src="../../images/Hubpage/Right.png" /></div>
+                                </div>
+                                <div class="BlackInnerDiv">
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 13px 0px 10px;">
+                                        <img src="../../images/Hubpage/Star2.png" /></div>
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 0px 0px 0px; font-size: 26px; color: #fcbd01; font-weight: lighter;">Concept Art</div>
+                                    <div style="width: auto; height: auto; float: right; margin: 0px 13px 0px 0px;">
+                                        <img src="../../images/Hubpage/Right.png" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ListBanner">
+                        <div class="TopText">List</div>
+                        <div class="ListMainDiv">
+                            <div class="ListInnerDiv">
+                                <div class="wightListInnerDiv">Add new list</div>
+                                <div class="YellowListInnerDiv">
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 0px 0px 15px; font-size: 26px; color: #000; font-weight: lighter;">Logo</div>
+                                    <div style="width: auto; height: auto; float: right; margin: 0px 13px 0px 0px; font-size: 26px; color: #000; font-weight: lighter;">2</div>
+                                </div>
+                                <div class="YellowListInnerDiv">
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 0px 0px 15px; font-size: 26px; color: #000; font-weight: lighter;">Photography</div>
+                                    <div style="width: auto; height: auto; float: right; margin: 0px 13px 0px 0px; font-size: 26px; color: #000; font-weight: lighter;">1</div>
+                                </div>
+                                <div class="YellowListInnerDiv">
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 0px 0px 15px; font-size: 26px; color: #000; font-weight: lighter;">Digital Art</div>
+                                    <div style="width: auto; height: auto; float: right; margin: 0px 13px 0px 0px; font-size: 26px; color: #000; font-weight: lighter;">3</div>
+                                </div>
+                                <div class="YellowListInnerDiv">
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 0px 0px 15px; font-size: 26px; color: #000; font-weight: lighter;">Painting</div>
+                                    <div style="width: auto; height: auto; float: right; margin: 0px 13px 0px 0px; font-size: 26px; color: #000; font-weight: lighter;">6</div>
+                                </div>
+                                <div class="BlackListInnerDiv">
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 13px 0px 10px;">
+                                        <img src="../../images/Hubpage/Star2.png" /></div>
+                                    <div style="width: auto; height: auto; float: left; margin: 0px 0px 0px 0px; font-size: 26px; color: #fcbd01; font-weight: lighter;">Concept Art</div>
+                                    <div style="width: auto; height: auto; float: right; margin: 0px 13px 0px 0px;">
+                                        <img src="../../images/Hubpage/Right.png" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

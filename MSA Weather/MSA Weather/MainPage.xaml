@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="MSA_Weather.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MSA_Weather"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.BottomAppBar>
+        <!-- What were these called in Windows Phone 7? First person to tell me (Jay) wins. -->
+        <CommandBar>
+            <AppBarButton Icon="World" Label="AppBarButton"/>
+            <AppBarButton Icon="Target" Label="AppBarButton"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Page.Resources>
+
+        <!-- Use for headings-->
+        <Style TargetType="TextBlock" x:Key="CityHeading">
+            <Setter Property="FontSize" Value="40" />
+        </Style>
+        
+        <!-- Use for number presentations-->
+        <Style TargetType="TextBlock" x:Key="NumberText">
+            <Setter Property="FontSize" Value="20" />
+        </Style>
+
+
+    </Page.Resources>
+
+    <Grid Background="#FF575659"> <!-- First person to make this background a lot cooler and show me wins! -->
+        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="1346" IsIndeterminate="True" Visibility="Collapsed"/>
+        <Grid Name="ContentPanel">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Orientation="Horizontal">
+                    <TextBlock x:Name="Title" Margin="20,20,20,20"   Text="MSA Weather" VerticalAlignment="Top"  FontSize="{ThemeResource HubHeaderThemeFontSize}"/>
+                    <TextBox x:Name="weatherInput"  Margin="20,20,20,20"  Text="" VerticalAlignment="Top" Height="50" Width="473" PlaceholderText="E.g. Seattle" />
+                    <Button x:Name="goButton" Margin="20,20,20,20"  Content="Get Weather" HorizontalAlignment="Left" VerticalAlignment="Top" Height="56" Width="173" Click="goButton_Click"/>
+                </StackPanel>
+                <Grid Grid.Row="1" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Try this first, then move to stackpanel-->
+                    <TextBlock  Grid.Column="0" x:Name="outputBox" Margin="20" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Output goes here" VerticalAlignment="Top" Style="{StaticResource CityHeading}" />
+                   
+                    <!-- One way to display the data-->
+                    <StackPanel  Grid.Column="1" Margin="20">
+                        <TextBlock Name="textCity" Text="test" Style="{StaticResource CityHeading}" />
+                        <TextBlock Name="textTemp" Text="test" Style="{StaticResource NumberText}"/>
+                        <TextBlock Name="textPressure"  Text="test" Style="{StaticResource NumberText}"/>
+                        <TextBlock Name="textHumidity"  Text="test" Style="{StaticResource NumberText}"/>
+                        <TextBlock Name="textWindDir"  Text="test" Style="{StaticResource NumberText}"/>
+                        <TextBlock Name="textDescription" Text="test"  Style="{StaticResource NumberText}"/>
+                    </StackPanel>
+
+
+                    <!-- Know your XAML? Databind the weather and show me (Jay) before the end of today. First person to show me wins. -->
+                    
+                    
+                </Grid>
+
+            </Grid>
+
+
+
+        </Grid>
+
+
+      
+
+    </Grid>
+</Page>

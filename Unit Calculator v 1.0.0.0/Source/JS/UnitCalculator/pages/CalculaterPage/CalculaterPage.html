@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CalculaterPage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    <script src="/js/CalculaterPagedata.js"></script>
+    <link href="CalculaterPage.css" rel="stylesheet" />
+    <script src="CalculaterPage.js"></script>
+</head>
+<body>
+    <div class="itemListtemplate" data-win-control="WinJS.Binding.Template" >
+        <div class="listMainDiv" >
+            <div class="item-overlay" >
+                <div class="ImageBanner">
+                    <img  class="item-image" src="#" data-win-bind="src: backgroundImage; alt: title" />
+                </div>
+                <div class="TextBanner">
+                    <h4 class="title" data-win-bind="textContent: title">dijo</h4>
+                    <h6 class="subtitle" data-win-bind="textContent: subtitle">64+64+4</h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="CalculaterPage fragment">
+        <header aria-label="Header content" role="banner">
+<!--            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>-->
+          <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Your App Slogan / Logo Goes Here</span>
+            </h1>
+            <div class="titlearea1">
+                <img src="../../images/AppLogo.png" />
+            </div>
+        </header>
+        <section aria-label="Main content" role="main" style ="overflow-x:hidden;overflow-y:hidden;">
+            <div class="TopText" id="topText"> </div>
+            <div class="MainDiv">
+                <div class="ListViewDIv">
+                    <div class="itemslist" aria-label="List of this group's items" data-win-control="WinJS.UI.ListView" data-win-options="{ selectionMode: 'none' }" ></div>
+                </div>
+                <div class="CalculaterDIv">
+                    <div class="CalInnerDIv">
+                        <div class="TopInnerDIv">
+                            <div style="margin: 0px 0px 0px 28px; padding: 8px 0px 0px 0px; color: #000; font-size: 24px; float: left;">Killometer</div>
+                            <input type="text" class="AreainPutv" value="1000" />
+                        </div>
+                        <div class="CalButtonMainDIv">
+                            <div class="FirsColumDIv">
+                                <div class="innerbuttonDIv">Yard</div>
+                                <div class="innerbuttonDIv">Feet</div>
+                                <div class="innerbuttonDIv">Inch</div>
+                                <div class="innerbuttonDIv">Meter</div>
+                                <div class="innerbuttonDIv">Centimeter</div>
+                                <div class="innerbuttonDIv">Milemeter</div>
+                                <div class="innerbuttonDIvBg">Micron</div>
+                            </div>
+                            <div class="SceColumDIv">
+                                <div class="TopInnerDIv2">
+                                    <div style="margin: 0px 34px 0px 0px; padding: 8px 0px 0px 0px; color: #000; font-size: 24px; float: right;">Yard</div>
+                                    <input type="text" class="AreainPutv2" value="1000" style="float: right; text-align: right;" />
+                                </div>
+                                <div class="SceinnerDIv">
+                                    <div class="CalculaterBanner">
+                                        <div style="width: 192px; height: auto; float: left;">
+                                            <div class="CalButt1"></div>
+                                            <div class="CalButt2"></div>
+                                            <div class="CalButt3"></div>
+                                            <div class="CalButt4"></div>
+                                            <div class="CalButt5"></div>
+                                            <div class="CalButt6"></div>
+                                            <div class="CalButt7"></div>
+                                            <div class="CalButt8"></div>
+                                            <div class="CalButt9"></div>
+                                            <div class="CalButt10"></div>
+                                            <div class="CalButt11"></div>
+                                            <div class="CalButt12"></div>
+                                        </div>
+                                        <div style="width: 83px; height: auto; float: left;">
+                                            <div class="CalButt13"></div>
+                                            <div class="CalButt15"></div>
+                                        </div>
+                                    </div>
+                                    <div class="SideColumDIv">
+                                        <div class="SideinnerbuttonDIv">Feet</div>
+                                        <div class="SideinnerbuttonDIv">Inch</div>
+                                        <div class="SideinnerbuttonDIv">Meter</div>
+                                        <div class="SideinnerbuttonDIv">Centimeter</div>
+                                        <div class="SideinnerbuttonDIv">Milemeter</div>
+                                        <div class="SideinnerbuttonDIvBg">Micron</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
